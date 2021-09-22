@@ -3,29 +3,67 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CFEF4A7B05396E2070F2B35 /* Pods_Klopotenko_0_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4284D4DC0F4D2B8C95B11C6 /* Pods_Klopotenko_0_2.framework */; };
 		B90EAF8226C3B12900419355 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90EAF8126C3B12900419355 /* AppDelegate.swift */; };
 		B90EAF8426C3B12900419355 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90EAF8326C3B12900419355 /* SceneDelegate.swift */; };
-		B90EAF8626C3B12900419355 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90EAF8526C3B12900419355 /* ViewController.swift */; };
+		B90EAF8626C3B12900419355 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90EAF8526C3B12900419355 /* MainViewController.swift */; };
 		B90EAF8926C3B12900419355 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B90EAF8726C3B12900419355 /* Main.storyboard */; };
 		B90EAF8C26C3B12900419355 /* Klopotenko_0_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B90EAF8A26C3B12900419355 /* Klopotenko_0_2.xcdatamodeld */; };
 		B90EAF8E26C3B12E00419355 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B90EAF8D26C3B12E00419355 /* Assets.xcassets */; };
 		B90EAF9126C3B12E00419355 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B90EAF8F26C3B12E00419355 /* LaunchScreen.storyboard */; };
+		B90EAF9A26C3B17600419355 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90EAF9926C3B17600419355 /* DetailViewController.swift */; };
+		B90EAF9C26C3B1C000419355 /* RecipeCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90EAF9B26C3B1C000419355 /* RecipeCategoryViewController.swift */; };
+		B90EAF9E26C3B20400419355 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90EAF9D26C3B20400419355 /* SettingsViewController.swift */; };
+		B90EAFA026C3B24C00419355 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90EAF9F26C3B24C00419355 /* FavoriteViewController.swift */; };
+		B90EAFA226C3B26300419355 /* ShopListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90EAFA126C3B26300419355 /* ShopListViewController.swift */; };
+		B90EAFA526C3B2A100419355 /* RecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90EAFA326C3B2A100419355 /* RecipeTableViewCell.swift */; };
+		B90EAFA626C3B2A100419355 /* RecipeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B90EAFA426C3B2A100419355 /* RecipeTableViewCell.xib */; };
+		B90EAFA926C3B2C500419355 /* IngridientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90EAFA726C3B2C500419355 /* IngridientTableViewCell.swift */; };
+		B90EAFAA26C3B2C500419355 /* IngridientTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B90EAFA826C3B2C500419355 /* IngridientTableViewCell.xib */; };
+		B90EAFB026C3D78700419355 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90EAFAF26C3D78700419355 /* Recipe.swift */; };
+		B90EAFB526C3DB8B00419355 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90EAFB426C3DB8A00419355 /* Constants.swift */; };
+		B90EAFB726CA8B7300419355 /* DetailFavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90EAFB626CA8B7100419355 /* DetailFavViewController.swift */; };
+		B90EAFB926CAA31100419355 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90EAFB826CAA31100419355 /* MyButton.swift */; };
+		B996F32426CE3D290059CE62 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B996F32326CE3D290059CE62 /* SearchViewController.swift */; };
+		B996F32626CF84AD0059CE62 /* AddNewRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B996F32526CF84AD0059CE62 /* AddNewRecipe.swift */; };
+		B996F33426CF97140059CE62 /* AddIngridientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B996F33226CF97140059CE62 /* AddIngridientCell.swift */; };
+		B996F33526CF97140059CE62 /* AddIngridientCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B996F33326CF97140059CE62 /* AddIngridientCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06A8189FA5839AD10A590DDF /* Pods-Klopotenko 0.2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klopotenko 0.2.debug.xcconfig"; path = "Target Support Files/Pods-Klopotenko 0.2/Pods-Klopotenko 0.2.debug.xcconfig"; sourceTree = "<group>"; };
 		B90EAF7E26C3B12900419355 /* Klopotenko 0.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Klopotenko 0.2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B90EAF8126C3B12900419355 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B90EAF8326C3B12900419355 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B90EAF8526C3B12900419355 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B90EAF8526C3B12900419355 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B90EAF8826C3B12900419355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B90EAF8B26C3B12900419355 /* Klopotenko_0_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Klopotenko_0_2.xcdatamodel; sourceTree = "<group>"; };
 		B90EAF8D26C3B12E00419355 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B90EAF9026C3B12E00419355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B90EAF9226C3B12E00419355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B90EAF9926C3B17600419355 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B90EAF9B26C3B1C000419355 /* RecipeCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCategoryViewController.swift; sourceTree = "<group>"; };
+		B90EAF9D26C3B20400419355 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		B90EAF9F26C3B24C00419355 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		B90EAFA126C3B26300419355 /* ShopListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListViewController.swift; sourceTree = "<group>"; };
+		B90EAFA326C3B2A100419355 /* RecipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewCell.swift; sourceTree = "<group>"; };
+		B90EAFA426C3B2A100419355 /* RecipeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeTableViewCell.xib; sourceTree = "<group>"; };
+		B90EAFA726C3B2C500419355 /* IngridientTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngridientTableViewCell.swift; sourceTree = "<group>"; };
+		B90EAFA826C3B2C500419355 /* IngridientTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IngridientTableViewCell.xib; sourceTree = "<group>"; };
+		B90EAFAF26C3D78700419355 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		B90EAFB426C3DB8A00419355 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B90EAFB626CA8B7100419355 /* DetailFavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFavViewController.swift; sourceTree = "<group>"; };
+		B90EAFB826CAA31100419355 /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
+		B996F32326CE3D290059CE62 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		B996F32526CF84AD0059CE62 /* AddNewRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewRecipe.swift; sourceTree = "<group>"; };
+		B996F33226CF97140059CE62 /* AddIngridientCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIngridientCell.swift; sourceTree = "<group>"; };
+		B996F33326CF97140059CE62 /* AddIngridientCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddIngridientCell.xib; sourceTree = "<group>"; };
+		C72E7189624558DC6E5E65FB /* Pods-Klopotenko 0.2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klopotenko 0.2.release.xcconfig"; path = "Target Support Files/Pods-Klopotenko 0.2/Pods-Klopotenko 0.2.release.xcconfig"; sourceTree = "<group>"; };
+		F4284D4DC0F4D2B8C95B11C6 /* Pods_Klopotenko_0_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Klopotenko_0_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +71,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CFEF4A7B05396E2070F2B35 /* Pods_Klopotenko_0_2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29C88DD8708C738EE6ACDECF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4284D4DC0F4D2B8C95B11C6 /* Pods_Klopotenko_0_2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B90EAF7526C3B12800419355 = {
 			isa = PBXGroup;
 			children = (
 				B90EAF8026C3B12900419355 /* Klopotenko 0.2 */,
 				B90EAF7F26C3B12900419355 /* Products */,
+				CE0916998CA2E65FA4D11CBF /* Pods */,
+				29C88DD8708C738EE6ACDECF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +109,96 @@
 			children = (
 				B90EAF8126C3B12900419355 /* AppDelegate.swift */,
 				B90EAF8326C3B12900419355 /* SceneDelegate.swift */,
-				B90EAF8526C3B12900419355 /* ViewController.swift */,
-				B90EAF8726C3B12900419355 /* Main.storyboard */,
+				B90EAFB126C3D79000419355 /* Model */,
+				B90EAFAE26C3B38E00419355 /* Views */,
+				B90EAF9826C3B15900419355 /* Controllers */,
 				B90EAF8D26C3B12E00419355 /* Assets.xcassets */,
 				B90EAF8F26C3B12E00419355 /* LaunchScreen.storyboard */,
 				B90EAF9226C3B12E00419355 /* Info.plist */,
 				B90EAF8A26C3B12900419355 /* Klopotenko_0_2.xcdatamodeld */,
+				B90EAFB426C3DB8A00419355 /* Constants.swift */,
+				B90EAFB826CAA31100419355 /* MyButton.swift */,
 			);
 			path = "Klopotenko 0.2";
+			sourceTree = "<group>";
+		};
+		B90EAF9826C3B15900419355 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B90EAF8526C3B12900419355 /* MainViewController.swift */,
+				B90EAF9926C3B17600419355 /* DetailViewController.swift */,
+				B90EAFB626CA8B7100419355 /* DetailFavViewController.swift */,
+				B90EAF9B26C3B1C000419355 /* RecipeCategoryViewController.swift */,
+				B90EAFAD26C3B2F500419355 /* BottomControllers */,
+				B90EAFAC26C3B2DE00419355 /* RecipeCell */,
+				B90EAFAB26C3B2CB00419355 /* IngridientCell */,
+				B996F33626CF97210059CE62 /* AddIngridientCell */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B90EAFAB26C3B2CB00419355 /* IngridientCell */ = {
+			isa = PBXGroup;
+			children = (
+				B90EAFA726C3B2C500419355 /* IngridientTableViewCell.swift */,
+				B90EAFA826C3B2C500419355 /* IngridientTableViewCell.xib */,
+			);
+			path = IngridientCell;
+			sourceTree = "<group>";
+		};
+		B90EAFAC26C3B2DE00419355 /* RecipeCell */ = {
+			isa = PBXGroup;
+			children = (
+				B90EAFA326C3B2A100419355 /* RecipeTableViewCell.swift */,
+				B90EAFA426C3B2A100419355 /* RecipeTableViewCell.xib */,
+			);
+			path = RecipeCell;
+			sourceTree = "<group>";
+		};
+		B90EAFAD26C3B2F500419355 /* BottomControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B90EAF9D26C3B20400419355 /* SettingsViewController.swift */,
+				B90EAF9F26C3B24C00419355 /* FavoriteViewController.swift */,
+				B90EAFA126C3B26300419355 /* ShopListViewController.swift */,
+				B996F32326CE3D290059CE62 /* SearchViewController.swift */,
+				B996F32526CF84AD0059CE62 /* AddNewRecipe.swift */,
+			);
+			path = BottomControllers;
+			sourceTree = "<group>";
+		};
+		B90EAFAE26C3B38E00419355 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B90EAF8726C3B12900419355 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B90EAFB126C3D79000419355 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B90EAFAF26C3D78700419355 /* Recipe.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B996F33626CF97210059CE62 /* AddIngridientCell */ = {
+			isa = PBXGroup;
+			children = (
+				B996F33226CF97140059CE62 /* AddIngridientCell.swift */,
+				B996F33326CF97140059CE62 /* AddIngridientCell.xib */,
+			);
+			path = AddIngridientCell;
+			sourceTree = "<group>";
+		};
+		CE0916998CA2E65FA4D11CBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06A8189FA5839AD10A590DDF /* Pods-Klopotenko 0.2.debug.xcconfig */,
+				C72E7189624558DC6E5E65FB /* Pods-Klopotenko 0.2.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B90EAF9526C3B12E00419355 /* Build configuration list for PBXNativeTarget "Klopotenko 0.2" */;
 			buildPhases = (
+				90C38196BEF5F9E539CBFEC9 /* [CP] Check Pods Manifest.lock */,
 				B90EAF7A26C3B12900419355 /* Sources */,
 				B90EAF7B26C3B12900419355 /* Frameworks */,
 				B90EAF7C26C3B12900419355 /* Resources */,
+				69DB13F5F650FFC6B11AE44A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,20 +263,79 @@
 				B90EAF9126C3B12E00419355 /* LaunchScreen.storyboard in Resources */,
 				B90EAF8E26C3B12E00419355 /* Assets.xcassets in Resources */,
 				B90EAF8926C3B12900419355 /* Main.storyboard in Resources */,
+				B90EAFA626C3B2A100419355 /* RecipeTableViewCell.xib in Resources */,
+				B996F33526CF97140059CE62 /* AddIngridientCell.xib in Resources */,
+				B90EAFAA26C3B2C500419355 /* IngridientTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69DB13F5F650FFC6B11AE44A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Klopotenko 0.2/Pods-Klopotenko 0.2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Klopotenko 0.2/Pods-Klopotenko 0.2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Klopotenko 0.2/Pods-Klopotenko 0.2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90C38196BEF5F9E539CBFEC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Klopotenko 0.2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B90EAF7A26C3B12900419355 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B90EAF8626C3B12900419355 /* ViewController.swift in Sources */,
+				B90EAF8626C3B12900419355 /* MainViewController.swift in Sources */,
+				B90EAFA526C3B2A100419355 /* RecipeTableViewCell.swift in Sources */,
+				B90EAFB926CAA31100419355 /* MyButton.swift in Sources */,
 				B90EAF8C26C3B12900419355 /* Klopotenko_0_2.xcdatamodeld in Sources */,
+				B90EAFB026C3D78700419355 /* Recipe.swift in Sources */,
+				B90EAF9E26C3B20400419355 /* SettingsViewController.swift in Sources */,
+				B90EAF9C26C3B1C000419355 /* RecipeCategoryViewController.swift in Sources */,
+				B90EAF9A26C3B17600419355 /* DetailViewController.swift in Sources */,
+				B90EAFB526C3DB8B00419355 /* Constants.swift in Sources */,
 				B90EAF8226C3B12900419355 /* AppDelegate.swift in Sources */,
+				B996F33426CF97140059CE62 /* AddIngridientCell.swift in Sources */,
+				B996F32426CE3D290059CE62 /* SearchViewController.swift in Sources */,
+				B90EAFA926C3B2C500419355 /* IngridientTableViewCell.swift in Sources */,
+				B90EAFA026C3B24C00419355 /* FavoriteViewController.swift in Sources */,
+				B90EAFB726CA8B7300419355 /* DetailFavViewController.swift in Sources */,
 				B90EAF8426C3B12900419355 /* SceneDelegate.swift in Sources */,
+				B90EAFA226C3B26300419355 /* ShopListViewController.swift in Sources */,
+				B996F32626CF84AD0059CE62 /* AddNewRecipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +479,7 @@
 		};
 		B90EAF9626C3B12E00419355 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06A8189FA5839AD10A590DDF /* Pods-Klopotenko 0.2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,6 +499,7 @@
 		};
 		B90EAF9726C3B12E00419355 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C72E7189624558DC6E5E65FB /* Pods-Klopotenko 0.2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -7,6 +7,8 @@
 
 import UIKit
 import CoreData
+import Parse
+import IQKeyboardManagerSwift
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,7 +16,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        
+        IQKeyboardManager.shared.enable = true
+
+        
+        let configuration = ParseClientConfiguration {
+            $0.applicationId = "lpQKygWMvqnIoTGW8ilunJDmwP8m7obIiJOuPuXL"
+            $0.clientKey = "coXbx3uNjQgSR1krgxC4o3BzmHOpsoQzKPLmu4Kh"
+            $0.server = "https://parseapi.back4app.com"
+        }
+        Parse.initialize(with: configuration)
+        
         return true
     }
 
